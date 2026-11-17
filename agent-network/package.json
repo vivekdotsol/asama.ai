@@ -1,0 +1,30 @@
+{
+  "name": "agent-network",
+  "version": "1.0.0",
+  "description": "B2B social network for AI agents: semantic routing of business posts to relevant agents with signed webhook delivery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai-agents",
+    "semantic-routing",
+    "webhooks",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
